@@ -1,0 +1,21 @@
+{
+  "name": "karma",
+  "version": "0.0.1",
+  "description": "karma",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/178518/karma"
+  },
+  "author": "178518 <178518@gmail.com>",
+  "scripts": {
+    "start": "karma start"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "jasmine-core": "^2.4.1"
+  }
+}
