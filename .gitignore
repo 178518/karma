@@ -1,6 +1,7 @@
 #OSX files
 .DS_Store
 Thumbs.db
+/coverage/
 /node_modules/
 .idea/
 *.log
