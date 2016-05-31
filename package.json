@@ -9,7 +9,7 @@
   "author": "178518 <178518@gmail.com>",
   "scripts": {
     "start": "karma start",
-    "tdd":"gulp tdd"
+    "test":"gulp tdd"
   },
   "dependencies": {
   },
