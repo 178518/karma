@@ -34,23 +34,3 @@ describe("Math method test!", function () {
         expect(true).toEqual(y == .1);
     })
 });
-
-/**
- * 测试数据类型
- */
-describe("data type method test!", function () {
-    it("base data type", function () {
-        expect('number').toEqual(getTypeofVal(80));
-        expect('string').toEqual(getTypeofVal("this is a string"));
-        expect('number').toEqual(getTypeofVal(NaN));
-        expect('boolean').toEqual(getTypeofVal(true));
-    })
-
-    it("object type",function(){
-        expect('[object Null]').toEqual(objType(null));
-        expect('[object Array]').toEqual(objType(values));
-        expect('[object Date]').toEqual(objType(now));
-        expect('[object Function]').toEqual(objType(printArray));
-
-    })
-});
