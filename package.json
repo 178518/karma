@@ -9,7 +9,7 @@
   "author": "178518 <178518@gmail.com>",
   "scripts": {
     "start": "karma start",
-    "test":"gulp tdd"
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
   },
   "dependencies": {
   },
